@@ -391,10 +391,10 @@ Once connected, agents has access to specific tools like `zotero_semantic_search
 *   **Gap Analysis:** *"Review my 'Research Plan' in Notion. Based on the papers available in Zotero, what key literature on 'displacement' am I missing?"*
 
 ### Reseach plan
-* /Research
+* /Research [TBC]
 
 ---
-Corrections: If you see mistakes or want to suggest changes, please create an (issue) [geminiCLI_hooks_and_extensions-4research/issues/new].
+Corrections: If you see mistakes or want to suggest changes, please create an [issue] (https://github.com/Andrei-WongE/geminiCLI_hooks_and_extensions-4research/issues/new).
 
 ## License
 
