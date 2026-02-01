@@ -394,7 +394,7 @@ Once connected, agents has access to specific tools like `zotero_semantic_search
 * /Research [TBC]
 
 ---
-Corrections: If you see mistakes or want to suggest changes, please create an [issue] (https://github.com/Andrei-WongE/geminiCLI_hooks_and_extensions-4research/issues/new).
+Corrections: If you see mistakes or want to suggest changes, please create an [issue](https://github.com/Andrei-WongE/geminiCLI_hooks_and_extensions-4research/issues/new).
 
 ## License
 
