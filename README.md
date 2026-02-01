@@ -371,10 +371,7 @@ gemini chat
 > /research
 # Output should display the researcher prompt.
 ```
-
-### 5. Examples
-
-# B.3. How to Use
+### 5. How to Use
 Once connected, agents has access to specific tools like `zotero_semantic_search` and `zotero_get_item_fulltext`. You do not need to call these manually; you must invoke them in plain English but be SPECIFIC.
 
 **Example Prompts:**
@@ -397,7 +394,7 @@ Once connected, agents has access to specific tools like `zotero_semantic_search
 * /Research
 
 ---
-Corrections: If you see mistakes or want to suggest changes, please create an [issue] (geminiCLI_hooks_and_extensions-4research/issues/new).
+Corrections: If you see mistakes or want to suggest changes, please create an (issue) [geminiCLI_hooks_and_extensions-4research/issues/new].
 
 ## License
 
