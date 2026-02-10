@@ -296,7 +296,7 @@ npm install
 npm run build
 ```
 
-#### E. Setup NoteboookLM MCP
+#### E. Setup NotebookLM MCP
 ** E.1 Install isolated tool
 ```powershell
 python -m pip install --user pipx
