@@ -34,6 +34,7 @@ The primary objective is to analyze a corpus of research papers to:
 
 - **Zotero**: Source of academic papers and references
 - **Notion**: Repository for research notes and annotations
+- **NotebookLM**: Research and note-taking online tool
 - **MCP (Model Context Protocol)**: Communication layer enabling AI-assisted analysis
 - **Gemini CLI**: Command-line interface for executing research workflows
 
@@ -295,7 +296,29 @@ npm install
 npm run build
 ```
 
-### E. Complete Configuration File
+#### E. Setup NoteboookLM MCP
+** E.1 Install isolated tool
+```powershell
+python -m pip install --user pipx
+python -m pipx ensurepath
+```
+Open new terminal to ensure PATH is saved, then:
+```powershell
+pipx install notebooklm-mcp-cli
+```
+** E.2 Authenticate with NotebookLM
+```powershell
+nlm login       # launches Chrome and captures cookies. Insert your credentials.
+```
+** E.3 Connect MCP to Gemini CLI, will configure settings.json automatically.
+```powershell
+npx @google/gemini-cli mcp add --scope user notebooklm-mcp notebooklm-mcp
+```
+** E.4 Verify in gemini chat
+```gemini cli
+/mcp list
+```
+### F. Complete Configuration File
 Replace your existing `settings.json` (typically located at `%USERPROFILE%\.gemini\settings.json`) with the content below.
 
 **Important:** Replace `[KEY]`, `[USER]` AND `[VERSION]` with your actual information. Verify PATHs!
