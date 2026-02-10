@@ -371,8 +371,16 @@ gemini chat
 > /research
 # Output should display the researcher prompt.
 ```
-### 5. How to Use
+### 5. How to Use and Practical Tips
 Once connected, agents has access to specific tools like `zotero_semantic_search` and `zotero_get_item_fulltext`. You do not need to call these manually; you must invoke them in plain English but be SPECIFIC.
+
+From *Accelerating Scientific Research with Gemini: Case Studies and Common Techniques*, last version [here](https://arxiv.org/abs/2602.03837v1).
+
+- Use multi‑step prompts: first give high‑level proof plan, the model fills in technical details.
+- For reviewing, use an adversarial protocol: first review, then have the model critique its own review for hallucinations/gaps, then revise.
+- Choose which directions to pursue, verify proofs, and curate context (clean definitions, relevant papers, de‑identified problem statements when needed).
+- Paste relevant literature using citation keys form Zotero and clean definitions into the prompt instead of relying on vague references.
+- Save chat session using `/chat save [tag]`
 
 **Example Prompts:**
 ### Zotero (Literature & Citations)
