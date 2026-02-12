@@ -45,7 +45,7 @@ This guide provides step-by-step instructions to configure a ""PhD-level"" resea
 ### First approach
 ## Prerequisites on Windows 11
 *   **Gemini CLI** installed and authenticated (`gemini auth login`).
-*   **Zotero** desktop application running (for local API access).
+*   **Zotero** desktop application running (for local API access). Version 7.X [Version 8 not yet compatible]
 *   **Notion** API Key (Internal Integration token).
 *   **Python** (3.10+), uv pacakge and **Node.js** (LTS) installed.
 
