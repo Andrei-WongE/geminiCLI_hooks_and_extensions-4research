@@ -297,24 +297,16 @@ npm run build
 ```
 
 #### E. Setup NotebookLM MCP
-** E.1 Install isolated tool
+** E.1 Install mcp from @PleasePrompto
+Open terminal, then:
 ```powershell
-python -m pip install --user pipx
-python -m pipx ensurepath
+npx @google/gemini-cli mcp add notebooklm npx notebooklm-mcp@latest
 ```
-Open new terminal to ensure PATH is saved, then:
-```powershell
-pipx install notebooklm-mcp-cli
+** E.2 Authenticate with NotebookLM in chat
+```gemini CLI
+"Log me in to NotebookLM"      # launches Chrome and captures cookies. 
 ```
-** E.2 Authenticate with NotebookLM
-```powershell
-nlm login       # launches Chrome and captures cookies. Insert your credentials.
-```
-** E.3 Connect MCP to Gemini CLI, will configure settings.json automatically.
-```powershell
-npx @google/gemini-cli mcp add --scope user notebooklm-mcp notebooklm-mcp
-```
-** E.4 Verify in gemini chat
+** E.3 Verify in gemini chat
 ```gemini cli
 /mcp list
 ```
