@@ -397,6 +397,8 @@ From *Accelerating Scientific Research with Gemini: Case Studies and Common Tech
 - Paste relevant literature using citation keys form Zotero and clean definitions into the prompt instead of relying on vague references.
 - Save chat session using `/chat save [tag]`
 
+>  The power of this integration lies in gathering context with notebookLM and Zotero library and building comprehensive understanding by letting agents ask multiple questions, before arriving to a final answer. 
+
 **Example Prompts:**
 ### Zotero (Literature & Citations)
 *   **Semantic Discovery:** *"Find papers conceptually similar to 'deep learning in computer vision' even if they don't use those exact keywords."*
